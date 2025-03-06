@@ -236,6 +236,8 @@ public class  objectDetectorClass {
         return mat_image;
     }
 
+
+
     private String get_alphabets(float sign_v) {
         String val="";
         if (sign_v>=-0.5 & sign_v<0.5){

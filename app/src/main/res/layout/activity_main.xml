@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Language"
+        android:text="Deteksi Bahasa"
         android:textAllCaps="false"
         android:textSize="40dp"
         android:textColor="@color/black"
@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recognition"
+        android:text="Isyarat SIBI"
         android:textAllCaps="false"
         android:textSize="40dp"
         android:textColor="@color/black"
@@ -32,10 +32,18 @@
         />
 
     <Button
+        android:layout_width="1mm"
+        android:layout_height="1mm"
+        android:id="@+id/camera_button"
+        android:text=""
+        android:textAllCaps="false"
+        />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:id="@+id/camera_button"
-        android:text="Real-time Recognition"
+        android:id="@+id/combine_letter_button"
+        android:text="Mulai"
         android:textAllCaps="false"
         />
 
